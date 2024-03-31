@@ -1,7 +1,6 @@
 
 # Hands-On |  JAVA Design Pattern
-<img src="https://img.shields.io/badge/by-Alejandro.Fuentes-informational?style=for-the-badge&logoColor=white&color=cdcdcd" />  
-<img src="https://img.shields.io/badge/Design_Pattern-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />  
+<img src="https://img.shields.io/badge/Design_Pattern-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/by-Alejandro.Fuentes-informational?style=for-the-badge&logoColor=white&color=cdcdcd" />
 
 ## About patterns
 
