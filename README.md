@@ -13,10 +13,12 @@ In this hands-on I to use three os more common design patterns:
 
 **Structural**
 * [Strategy](#strategy)
+* [Adapter](#Adapter)
 
 **Behavioral**
 * [Facade](#facade)
 * [Observer](#observer)
+
 
 
 ## Singlenton
@@ -60,6 +62,31 @@ classDiagram
 	ImplementationTwo --> Strategy
 	ImplementationN --> Strategy
 
+```
+## Adapter
+
+Is a structural design pattern that allow objects with incompatible interfaces to collaborate
+
+```mermaid
+classDiagram
+	class Client
+	class Existing Class {
+		...
+		+ method(data)
+	}
+	class Service {
+		...
+		+ serviceMethod(specialData)
+	}
+	class Adapter {
+		...
+		+ method(data)
+	}
+	
+	Client --> ExistingClass
+	note for Adapter "specialData = convertToServiceFormat(data)\nreturn serviceMethod(specialData)"
+	Adapter --> ExistingClass
+	Adapter --> Service
 ```
 
 ## Facade
